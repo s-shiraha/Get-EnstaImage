@@ -259,9 +259,9 @@ if(Test-Path -Path $OutCsvPath){
 $OutStr = ",$(1..$TargetWidth -join ",")"
 Add-Content -Path $OutCsvPath -Value $OutStr
 
-for($x = 0; $x -lt $TargetWidth; $x++){
-    $OutStr = "$($x + 1)"
-    for($y = 0; $y -lt $TargetWidth; $y++){
+for($y = 0; $y -lt $TargetWidth; $y++){
+    $OutStr = "$($y + 1)"
+    for($x = 0; $x -lt $TargetWidth; $x++){
         $Pixel = $DstBitmap.GetPixel($x, $y)
         $BlockName = Get-ShortestBlockName -R $Pixel.R -G $Pixel.G -B $Pixel.B
         $Rgb = ($MinecraftBlocks | Where-Object -FilterScript {$_.Keys -eq $BlockName}).Values
