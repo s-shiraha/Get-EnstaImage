@@ -1,198 +1,198 @@
-[System.Reflection.Assembly]::LoadWithPartialName("System.Drawing") | Out-Null
+ï»¿[System.Reflection.Assembly]::LoadWithPartialName("System.Drawing") | Out-Null
 
 function MinecraftBlocks {
     $Ret = New-Object -TypeName System.Collections.ArrayList
-    #$Ret.Add(@{"‘ƒuƒƒbƒN(–¾)" = @{"R" = 127; "G" = 178; "B" = 56}}) | Out-Null
-    $Ret.Add(@{"‘ƒuƒƒbƒN" = @{"R" = [math]::Floor(127 * 220 / 255); "G" = [math]::Floor(178 * 220 / 255); "B" = [math]::Floor(56 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"‘ƒuƒƒbƒN(ˆÃ)" = @{"R" = [math]::Floor(127 * 180 / 255); "G" = [math]::Floor(178 * 180 / 255); "B" = [math]::Floor(56 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"è‰ãƒ–ãƒ­ãƒƒã‚¯(æ˜)" = @{"R" = 127; "G" = 178; "B" = 56}}) | Out-Null
+    $Ret.Add(@{"è‰ãƒ–ãƒ­ãƒƒã‚¯" = @{"R" = [math]::Floor(127 * 220 / 255); "G" = [math]::Floor(178 * 220 / 255); "B" = [math]::Floor(56 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"è‰ãƒ–ãƒ­ãƒƒã‚¯(æš—)" = @{"R" = [math]::Floor(127 * 180 / 255); "G" = [math]::Floor(178 * 180 / 255); "B" = [math]::Floor(56 * 180 / 255)}}) | Out-Null
     
-    #$Ret.Add(@{"»(–¾)" = @{"R" = 247; "G" = 233; "B" = 163}}) | Out-Null
-    $Ret.Add(@{"»" = @{"R" = [math]::Floor(247 * 220 / 255); "G" = [math]::Floor(233 * 220 / 255); "B" = [math]::Floor(163 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"»(ˆÃ)" = @{"R" = [math]::Floor(247 * 180 / 255); "G" = [math]::Floor(233 * 180 / 255); "B" = [math]::Floor(163 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç ‚(æ˜)" = @{"R" = 247; "G" = 233; "B" = 163}}) | Out-Null
+    $Ret.Add(@{"ç ‚" = @{"R" = [math]::Floor(247 * 220 / 255); "G" = [math]::Floor(233 * 220 / 255); "B" = [math]::Floor(163 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç ‚(æš—)" = @{"R" = [math]::Floor(247 * 180 / 255); "G" = [math]::Floor(233 * 180 / 255); "B" = [math]::Floor(163 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"TNT(–¾)" = @{"R" = 255; "G" = 0; "B" = 0}}) | Out-Null
+    #$Ret.Add(@{"TNT(æ˜)" = @{"R" = 255; "G" = 0; "B" = 0}}) | Out-Null
     $Ret.Add(@{"TNT" = @{"R" = [math]::Floor(255 * 220 / 255); "G" = [math]::Floor(0 * 220 / 255); "B" = [math]::Floor(0 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"TNT(ˆÃ)" = @{"R" = [math]::Floor(255 * 180 / 255); "G" = [math]::Floor(0 * 180 / 255); "B" = [math]::Floor(0 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"TNT(æš—)" = @{"R" = [math]::Floor(255 * 180 / 255); "G" = [math]::Floor(0 * 180 / 255); "B" = [math]::Floor(0 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"”’F‚Ì—r–Ñ(–¾)" = @{"R" = 255; "G" = 255; "B" = 255}}) | Out-Null
-    $Ret.Add(@{"”’F‚Ì—r–Ñ" = @{"R" = [math]::Floor(255 * 220 / 255); "G" = [math]::Floor(255 * 220 / 255); "B" = [math]::Floor(255 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"”’F‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(255 * 180 / 255); "G" = [math]::Floor(255 * 180 / 255); "B" = [math]::Floor(255 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç™½è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 255; "G" = 255; "B" = 255}}) | Out-Null
+    $Ret.Add(@{"ç™½è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(255 * 220 / 255); "G" = [math]::Floor(255 * 220 / 255); "B" = [math]::Floor(255 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç™½è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(255 * 180 / 255); "G" = [math]::Floor(255 * 180 / 255); "B" = [math]::Floor(255 * 180 / 255)}}) | Out-Null
     
-    #$Ret.Add(@{"“y(–¾)" = @{"R" = 151; "G" = 109; "B" = 77}}) | Out-Null
-    $Ret.Add(@{"“y" = @{"R" = [math]::Floor(151 * 220 / 255); "G" = [math]::Floor(109 * 220 / 255); "B" = [math]::Floor(77 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"“y(ˆÃ)" = @{"R" = [math]::Floor(151 * 180 / 255); "G" = [math]::Floor(109 * 180 / 255); "B" = [math]::Floor(77 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"åœŸ(æ˜)" = @{"R" = 151; "G" = 109; "B" = 77}}) | Out-Null
+    $Ret.Add(@{"åœŸ" = @{"R" = [math]::Floor(151 * 220 / 255); "G" = [math]::Floor(109 * 220 / 255); "B" = [math]::Floor(77 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"åœŸ(æš—)" = @{"R" = [math]::Floor(151 * 180 / 255); "G" = [math]::Floor(109 * 180 / 255); "B" = [math]::Floor(77 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"ŠÛÎ(–¾)" = @{"R" = 112; "G" = 112; "B" = 112}}) | Out-Null
-    $Ret.Add(@{"ŠÛÎ" = @{"R" = [math]::Floor(112 * 220 / 255); "G" = [math]::Floor(112 * 220 / 255); "B" = [math]::Floor(112 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"ŠÛÎ(ˆÃ)" = @{"R" = [math]::Floor(112 * 180 / 255); "G" = [math]::Floor(112 * 180 / 255); "B" = [math]::Floor(112 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ä¸¸çŸ³(æ˜)" = @{"R" = 112; "G" = 112; "B" = 112}}) | Out-Null
+    $Ret.Add(@{"ä¸¸çŸ³" = @{"R" = [math]::Floor(112 * 220 / 255); "G" = [math]::Floor(112 * 220 / 255); "B" = [math]::Floor(112 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ä¸¸çŸ³(æš—)" = @{"R" = [math]::Floor(112 * 180 / 255); "G" = [math]::Floor(112 * 180 / 255); "B" = [math]::Floor(112 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"ì‹Æ‘ä(–¾)" = @{"R" = 143; "G" = 119; "B" = 72}}) | Out-Null
-    $Ret.Add(@{"ì‹Æ‘ä" = @{"R" = [math]::Floor(143 * 220 / 255); "G" = [math]::Floor(119 * 220 / 255); "B" = [math]::Floor(72 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"ì‹Æ‘ä(ˆÃ)" = @{"R" = [math]::Floor(143 * 180 / 255); "G" = [math]::Floor(119 * 180 / 255); "B" = [math]::Floor(72 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ä½œæ¥­å°(æ˜)" = @{"R" = 143; "G" = 119; "B" = 72}}) | Out-Null
+    $Ret.Add(@{"ä½œæ¥­å°" = @{"R" = [math]::Floor(143 * 220 / 255); "G" = [math]::Floor(119 * 220 / 255); "B" = [math]::Floor(72 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ä½œæ¥­å°(æš—)" = @{"R" = [math]::Floor(143 * 180 / 255); "G" = [math]::Floor(119 * 180 / 255); "B" = [math]::Floor(72 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"òF‚Ì—r–Ñ(–¾)" = @{"R" = 216; "G" = 127; "B" = 51}}) | Out-Null
-    $Ret.Add(@{"òF‚Ì—r–Ñ" = @{"R" = [math]::Floor(216 * 220 / 255); "G" = [math]::Floor(127 * 220 / 255); "B" = [math]::Floor(51 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"òF‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(216 * 180 / 255); "G" = [math]::Floor(127 * 180 / 255); "B" = [math]::Floor(51 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ©™è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 216; "G" = 127; "B" = 51}}) | Out-Null
+    $Ret.Add(@{"æ©™è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(216 * 220 / 255); "G" = [math]::Floor(127 * 220 / 255); "B" = [math]::Floor(51 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ©™è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(216 * 180 / 255); "G" = [math]::Floor(127 * 180 / 255); "B" = [math]::Floor(51 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"Ô‡F‚Ì—r–Ñ(–¾)" = @{"R" = 178; "G" = 76; "B" = 216}}) | Out-Null
-    $Ret.Add(@{"Ô‡F‚Ì—r–Ñ" = @{"R" = [math]::Floor(178 * 220 / 255); "G" = [math]::Floor(76 * 220 / 255); "B" = [math]::Floor(216 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"Ô‡F‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(178 * 180 / 255); "G" = [math]::Floor(76 * 180 / 255); "B" = [math]::Floor(216 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èµ¤ç´«è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 178; "G" = 76; "B" = 216}}) | Out-Null
+    $Ret.Add(@{"èµ¤ç´«è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(178 * 220 / 255); "G" = [math]::Floor(76 * 220 / 255); "B" = [math]::Floor(216 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èµ¤ç´«è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(178 * 180 / 255); "G" = [math]::Floor(76 * 180 / 255); "B" = [math]::Floor(216 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"‹óF‚Ì—r–Ñ(–¾)" = @{"R" = 102; "G" = 153; "B" = 216}}) | Out-Null
-    $Ret.Add(@{"‹óF‚Ì—r–Ñ" = @{"R" = [math]::Floor(102 * 220 / 255); "G" = [math]::Floor(153 * 220 / 255); "B" = [math]::Floor(216 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"‹óF‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(102 * 180 / 255); "G" = [math]::Floor(153 * 180 / 255); "B" = [math]::Floor(216 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç©ºè‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 102; "G" = 153; "B" = 216}}) | Out-Null
+    $Ret.Add(@{"ç©ºè‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(102 * 220 / 255); "G" = [math]::Floor(153 * 220 / 255); "B" = [math]::Floor(216 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç©ºè‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(102 * 180 / 255); "G" = [math]::Floor(153 * 180 / 255); "B" = [math]::Floor(216 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"‰©F‚Ì—r–Ñ(–¾)" = @{"R" = 229; "G" = 229; "B" = 51}}) | Out-Null
-    $Ret.Add(@{"‰©F‚Ì—r–Ñ" = @{"R" = [math]::Floor(229 * 220 / 255); "G" = [math]::Floor(229 * 220 / 255); "B" = [math]::Floor(51 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"‰©F‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(229 * 180 / 255); "G" = [math]::Floor(229 * 180 / 255); "B" = [math]::Floor(51 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»„è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 229; "G" = 229; "B" = 51}}) | Out-Null
+    $Ret.Add(@{"é»„è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(229 * 220 / 255); "G" = [math]::Floor(229 * 220 / 255); "B" = [math]::Floor(51 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»„è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(229 * 180 / 255); "G" = [math]::Floor(229 * 180 / 255); "B" = [math]::Floor(51 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"‰©—ÎF‚Ì—r–Ñ(–¾)" = @{"R" = 127; "G" = 204; "B" = 25}}) | Out-Null
-    $Ret.Add(@{"‰©—ÎF‚Ì—r–Ñ" = @{"R" = [math]::Floor(127 * 220 / 255); "G" = [math]::Floor(204 * 220 / 255); "B" = [math]::Floor(25 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"‰©—ÎF‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(127 * 180 / 255); "G" = [math]::Floor(204 * 180 / 255); "B" = [math]::Floor(25 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»„ç·‘è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 127; "G" = 204; "B" = 25}}) | Out-Null
+    $Ret.Add(@{"é»„ç·‘è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(127 * 220 / 255); "G" = [math]::Floor(204 * 220 / 255); "B" = [math]::Floor(25 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»„ç·‘è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(127 * 180 / 255); "G" = [math]::Floor(204 * 180 / 255); "B" = [math]::Floor(25 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"“F‚Ì—r–Ñ(–¾)" = @{"R" = 242; "G" = 127; "B" = 165}}) | Out-Null
-    $Ret.Add(@{"“F‚Ì—r–Ñ" = @{"R" = [math]::Floor(242 * 220 / 255); "G" = [math]::Floor(127 * 220 / 255); "B" = [math]::Floor(165 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"“F‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(242 * 180 / 255); "G" = [math]::Floor(127 * 180 / 255); "B" = [math]::Floor(165 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ¡ƒè‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 242; "G" = 127; "B" = 165}}) | Out-Null
+    $Ret.Add(@{"æ¡ƒè‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(242 * 220 / 255); "G" = [math]::Floor(127 * 220 / 255); "B" = [math]::Floor(165 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ¡ƒè‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(242 * 180 / 255); "G" = [math]::Floor(127 * 180 / 255); "B" = [math]::Floor(165 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"ŠDF‚Ì—r–Ñ(–¾)" = @{"R" = 76; "G" = 76; "B" = 76}}) | Out-Null
-    $Ret.Add(@{"ŠDF‚Ì—r–Ñ" = @{"R" = [math]::Floor(76 * 220 / 255); "G" = [math]::Floor(76 * 220 / 255); "B" = [math]::Floor(76 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"ŠDF‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(76 * 180 / 255); "G" = [math]::Floor(76 * 180 / 255); "B" = [math]::Floor(76 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç°è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 76; "G" = 76; "B" = 76}}) | Out-Null
+    $Ret.Add(@{"ç°è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(76 * 220 / 255); "G" = [math]::Floor(76 * 220 / 255); "B" = [math]::Floor(76 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç°è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(76 * 180 / 255); "G" = [math]::Floor(76 * 180 / 255); "B" = [math]::Floor(76 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"”–ŠDF‚Ì—r–Ñ(–¾)" = @{"R" = 153; "G" = 153; "B" = 153}}) | Out-Null
-    $Ret.Add(@{"”–ŠDF‚Ì—r–Ñ" = @{"R" = [math]::Floor(153 * 220 / 255); "G" = [math]::Floor(153 * 220 / 255); "B" = [math]::Floor(153 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"”–ŠDF‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(153 * 180 / 255); "G" = [math]::Floor(153 * 180 / 255); "B" = [math]::Floor(153 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"è–„ç°è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 153; "G" = 153; "B" = 153}}) | Out-Null
+    $Ret.Add(@{"è–„ç°è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(153 * 220 / 255); "G" = [math]::Floor(153 * 220 / 255); "B" = [math]::Floor(153 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"è–„ç°è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(153 * 180 / 255); "G" = [math]::Floor(153 * 180 / 255); "B" = [math]::Floor(153 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"Â—ÎF‚Ì—r–Ñ(–¾)" = @{"R" = 76; "G" = 127; "B" = 153}}) | Out-Null
-    $Ret.Add(@{"Â—ÎF‚Ì—r–Ñ" = @{"R" = [math]::Floor(76 * 220 / 255); "G" = [math]::Floor(127 * 220 / 255); "B" = [math]::Floor(153 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"Â—ÎF‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(76 * 180 / 255); "G" = [math]::Floor(127 * 180 / 255); "B" = [math]::Floor(153 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é’ç·‘è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 76; "G" = 127; "B" = 153}}) | Out-Null
+    $Ret.Add(@{"é’ç·‘è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(76 * 220 / 255); "G" = [math]::Floor(127 * 220 / 255); "B" = [math]::Floor(153 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é’ç·‘è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(76 * 180 / 255); "G" = [math]::Floor(127 * 180 / 255); "B" = [math]::Floor(153 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"‡F‚Ì—r–Ñ(–¾)" = @{"R" = 127; "G" = 63; "B" = 178}}) | Out-Null
-    $Ret.Add(@{"‡F‚Ì—r–Ñ" = @{"R" = [math]::Floor(127 * 220 / 255); "G" = [math]::Floor(63 * 220 / 255); "B" = [math]::Floor(178 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"‡F‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(127 * 180 / 255); "G" = [math]::Floor(63 * 180 / 255); "B" = [math]::Floor(178 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç´«è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 127; "G" = 63; "B" = 178}}) | Out-Null
+    $Ret.Add(@{"ç´«è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(127 * 220 / 255); "G" = [math]::Floor(63 * 220 / 255); "B" = [math]::Floor(178 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç´«è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(127 * 180 / 255); "G" = [math]::Floor(63 * 180 / 255); "B" = [math]::Floor(178 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"ÂF‚Ì—r–Ñ(–¾)" = @{"R" = 51; "G" = 76; "B" = 178}}) | Out-Null
-    $Ret.Add(@{"ÂF‚Ì—r–Ñ" = @{"R" = [math]::Floor(51 * 220 / 255); "G" = [math]::Floor(76 * 220 / 255); "B" = [math]::Floor(178 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"ÂF‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(51 * 180 / 255); "G" = [math]::Floor(76 * 180 / 255); "B" = [math]::Floor(178 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é’è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 51; "G" = 76; "B" = 178}}) | Out-Null
+    $Ret.Add(@{"é’è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(51 * 220 / 255); "G" = [math]::Floor(76 * 220 / 255); "B" = [math]::Floor(178 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é’è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(51 * 180 / 255); "G" = [math]::Floor(76 * 180 / 255); "B" = [math]::Floor(178 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"’ƒF‚Ì—r–Ñ(–¾)" = @{"R" = 102; "G" = 76; "B" = 51}}) | Out-Null
-    $Ret.Add(@{"’ƒF‚Ì—r–Ñ" = @{"R" = [math]::Floor(102 * 220 / 255); "G" = [math]::Floor(76 * 220 / 255); "B" = [math]::Floor(51 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"’ƒF‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(102 * 180 / 255); "G" = [math]::Floor(76 * 180 / 255); "B" = [math]::Floor(51 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èŒ¶è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 102; "G" = 76; "B" = 51}}) | Out-Null
+    $Ret.Add(@{"èŒ¶è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(102 * 220 / 255); "G" = [math]::Floor(76 * 220 / 255); "B" = [math]::Floor(51 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èŒ¶è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(102 * 180 / 255); "G" = [math]::Floor(76 * 180 / 255); "B" = [math]::Floor(51 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"—ÎF‚Ì—r–Ñ(–¾)" = @{"R" = 102; "G" = 127; "B" = 51}}) | Out-Null
-    $Ret.Add(@{"—ÎF‚Ì—r–Ñ" = @{"R" = [math]::Floor(102 * 220 / 255); "G" = [math]::Floor(127 * 220 / 255); "B" = [math]::Floor(51 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"—ÎF‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(102 * 180 / 255); "G" = [math]::Floor(127 * 180 / 255); "B" = [math]::Floor(51 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç·‘è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 102; "G" = 127; "B" = 51}}) | Out-Null
+    $Ret.Add(@{"ç·‘è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(102 * 220 / 255); "G" = [math]::Floor(127 * 220 / 255); "B" = [math]::Floor(51 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç·‘è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(102 * 180 / 255); "G" = [math]::Floor(127 * 180 / 255); "B" = [math]::Floor(51 * 180 / 255)}}) | Out-Null
     
-    #$Ret.Add(@{"ÔF‚Ì—r–Ñ(–¾)" = @{"R" = 153; "G" = 51; "B" = 51}}) | Out-Null
-    $Ret.Add(@{"ÔF‚Ì—r–Ñ" = @{"R" = [math]::Floor(153 * 220 / 255); "G" = [math]::Floor(51 * 220 / 255); "B" = [math]::Floor(51 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"ÔF‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(153 * 180 / 255); "G" = [math]::Floor(51 * 180 / 255); "B" = [math]::Floor(51 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èµ¤è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 153; "G" = 51; "B" = 51}}) | Out-Null
+    $Ret.Add(@{"èµ¤è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(153 * 220 / 255); "G" = [math]::Floor(51 * 220 / 255); "B" = [math]::Floor(51 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èµ¤è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(153 * 180 / 255); "G" = [math]::Floor(51 * 180 / 255); "B" = [math]::Floor(51 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"•F‚Ì—r–Ñ(–¾)" = @{"R" = 25; "G" = 25; "B" = 25}}) | Out-Null
-    $Ret.Add(@{"•F‚Ì—r–Ñ" = @{"R" = [math]::Floor(25 * 220 / 255); "G" = [math]::Floor(25 * 220 / 255); "B" = [math]::Floor(25 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"•F‚Ì—r–Ñ(ˆÃ)" = @{"R" = [math]::Floor(25 * 180 / 255); "G" = [math]::Floor(25 * 180 / 255); "B" = [math]::Floor(25 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»’è‰²ã®ç¾Šæ¯›(æ˜)" = @{"R" = 25; "G" = 25; "B" = 25}}) | Out-Null
+    $Ret.Add(@{"é»’è‰²ã®ç¾Šæ¯›" = @{"R" = [math]::Floor(25 * 220 / 255); "G" = [math]::Floor(25 * 220 / 255); "B" = [math]::Floor(25 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»’è‰²ã®ç¾Šæ¯›(æš—)" = @{"R" = [math]::Floor(25 * 180 / 255); "G" = [math]::Floor(25 * 180 / 255); "B" = [math]::Floor(25 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"‹àƒuƒƒbƒN(–¾)" = @{"R" = 250; "G" = 238; "B" = 77}}) | Out-Null
-    $Ret.Add(@{"‹àƒuƒƒbƒN" = @{"R" = [math]::Floor(250 * 220 / 255); "G" = [math]::Floor(238 * 220 / 255); "B" = [math]::Floor(77 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"‹àƒuƒƒbƒN(ˆÃ)" = @{"R" = [math]::Floor(250 * 180 / 255); "G" = [math]::Floor(238 * 180 / 255); "B" = [math]::Floor(77 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é‡‘ãƒ–ãƒ­ãƒƒã‚¯(æ˜)" = @{"R" = 250; "G" = 238; "B" = 77}}) | Out-Null
+    $Ret.Add(@{"é‡‘ãƒ–ãƒ­ãƒƒã‚¯" = @{"R" = [math]::Floor(250 * 220 / 255); "G" = [math]::Floor(238 * 220 / 255); "B" = [math]::Floor(77 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é‡‘ãƒ–ãƒ­ãƒƒã‚¯(æš—)" = @{"R" = [math]::Floor(250 * 180 / 255); "G" = [math]::Floor(238 * 180 / 255); "B" = [math]::Floor(77 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"ƒlƒU[ƒ‰ƒbƒN(–¾)" = @{"R" = 112; "G" = 2; "B" = 0}}) | Out-Null
-    $Ret.Add(@{"ƒlƒU[ƒ‰ƒbƒN" = @{"R" = [math]::Floor(112 * 220 / 255); "G" = [math]::Floor(2 * 220 / 255); "B" = [math]::Floor(0 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"ƒlƒU[ƒ‰ƒbƒN(ˆÃ)" = @{"R" = [math]::Floor(112 * 180 / 255); "G" = [math]::Floor(2 * 180 / 255); "B" = [math]::Floor(0 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ãƒã‚¶ãƒ¼ãƒ©ãƒƒã‚¯(æ˜)" = @{"R" = 112; "G" = 2; "B" = 0}}) | Out-Null
+    $Ret.Add(@{"ãƒã‚¶ãƒ¼ãƒ©ãƒƒã‚¯" = @{"R" = [math]::Floor(112 * 220 / 255); "G" = [math]::Floor(2 * 220 / 255); "B" = [math]::Floor(0 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ãƒã‚¶ãƒ¼ãƒ©ãƒƒã‚¯(æš—)" = @{"R" = [math]::Floor(112 * 180 / 255); "G" = [math]::Floor(2 * 180 / 255); "B" = [math]::Floor(0 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"”’F‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 209; "G" = 177; "B" = 161}}) | Out-Null
-    $Ret.Add(@{"”’F‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(209 * 220 / 255); "G" = [math]::Floor(177 * 220 / 255); "B" = [math]::Floor(161 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"”’F‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(209 * 180 / 255); "G" = [math]::Floor(177 * 180 / 255); "B" = [math]::Floor(161 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç™½è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 209; "G" = 177; "B" = 161}}) | Out-Null
+    $Ret.Add(@{"ç™½è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(209 * 220 / 255); "G" = [math]::Floor(177 * 220 / 255); "B" = [math]::Floor(161 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç™½è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(209 * 180 / 255); "G" = [math]::Floor(177 * 180 / 255); "B" = [math]::Floor(161 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"òF‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 159; "G" = 82; "B" = 36}}) | Out-Null
-    $Ret.Add(@{"òF‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(159 * 220 / 255); "G" = [math]::Floor(82 * 220 / 255); "B" = [math]::Floor(36 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"òF‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(159 * 180 / 255); "G" = [math]::Floor(82 * 180 / 255); "B" = [math]::Floor(36 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ©™è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 159; "G" = 82; "B" = 36}}) | Out-Null
+    $Ret.Add(@{"æ©™è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(159 * 220 / 255); "G" = [math]::Floor(82 * 220 / 255); "B" = [math]::Floor(36 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ©™è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(159 * 180 / 255); "G" = [math]::Floor(82 * 180 / 255); "B" = [math]::Floor(36 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"Ô‡F‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 149; "G" = 87; "B" = 108}}) | Out-Null
-    $Ret.Add(@{"Ô‡F‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(149 * 220 / 255); "G" = [math]::Floor(87 * 220 / 255); "B" = [math]::Floor(108 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"Ô‡F‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(149 * 180 / 255); "G" = [math]::Floor(87 * 180 / 255); "B" = [math]::Floor(108 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èµ¤ç´«è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 149; "G" = 87; "B" = 108}}) | Out-Null
+    $Ret.Add(@{"èµ¤ç´«è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(149 * 220 / 255); "G" = [math]::Floor(87 * 220 / 255); "B" = [math]::Floor(108 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èµ¤ç´«è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(149 * 180 / 255); "G" = [math]::Floor(87 * 180 / 255); "B" = [math]::Floor(108 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"‹óF‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 112; "G" = 108; "B" = 138}}) | Out-Null
-    $Ret.Add(@{"‹óF‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(112 * 220 / 255); "G" = [math]::Floor(108 * 220 / 255); "B" = [math]::Floor(138 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"‹óF‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(112 * 180 / 255); "G" = [math]::Floor(108 * 180 / 255); "B" = [math]::Floor(138 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç©ºè‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 112; "G" = 108; "B" = 138}}) | Out-Null
+    $Ret.Add(@{"ç©ºè‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(112 * 220 / 255); "G" = [math]::Floor(108 * 220 / 255); "B" = [math]::Floor(138 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç©ºè‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(112 * 180 / 255); "G" = [math]::Floor(108 * 180 / 255); "B" = [math]::Floor(138 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"‰©F‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 186; "G" = 133; "B" = 36}}) | Out-Null
-    $Ret.Add(@{"‰©F‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(186 * 220 / 255); "G" = [math]::Floor(133 * 220 / 255); "B" = [math]::Floor(36 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"‰©F‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(186 * 180 / 255); "G" = [math]::Floor(133 * 180 / 255); "B" = [math]::Floor(36 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»„è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 186; "G" = 133; "B" = 36}}) | Out-Null
+    $Ret.Add(@{"é»„è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(186 * 220 / 255); "G" = [math]::Floor(133 * 220 / 255); "B" = [math]::Floor(36 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»„è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(186 * 180 / 255); "G" = [math]::Floor(133 * 180 / 255); "B" = [math]::Floor(36 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"‰©—ÎF‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 103; "G" = 117; "B" = 53}}) | Out-Null
-    $Ret.Add(@{"‰©—ÎF‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(103 * 220 / 255); "G" = [math]::Floor(117 * 220 / 255); "B" = [math]::Floor(53 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"‰©—ÎF‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(103 * 180 / 255); "G" = [math]::Floor(117 * 180 / 255); "B" = [math]::Floor(53 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»„ç·‘è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 103; "G" = 117; "B" = 53}}) | Out-Null
+    $Ret.Add(@{"é»„ç·‘è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(103 * 220 / 255); "G" = [math]::Floor(117 * 220 / 255); "B" = [math]::Floor(53 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»„ç·‘è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(103 * 180 / 255); "G" = [math]::Floor(117 * 180 / 255); "B" = [math]::Floor(53 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"“F‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 160; "G" = 77; "B" = 78}}) | Out-Null
-    $Ret.Add(@{"“F‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(160 * 220 / 255); "G" = [math]::Floor(77 * 220 / 255); "B" = [math]::Floor(78 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"“F‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(160 * 180 / 255); "G" = [math]::Floor(77 * 180 / 255); "B" = [math]::Floor(78 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ¡ƒè‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 160; "G" = 77; "B" = 78}}) | Out-Null
+    $Ret.Add(@{"æ¡ƒè‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(160 * 220 / 255); "G" = [math]::Floor(77 * 220 / 255); "B" = [math]::Floor(78 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ¡ƒè‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(160 * 180 / 255); "G" = [math]::Floor(77 * 180 / 255); "B" = [math]::Floor(78 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"ŠDF‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 57; "G" = 41; "B" = 35}}) | Out-Null
-    $Ret.Add(@{"ŠDF‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(57 * 220 / 255); "G" = [math]::Floor(41 * 220 / 255); "B" = [math]::Floor(35 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"ŠDF‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(57 * 180 / 255); "G" = [math]::Floor(41 * 180 / 255); "B" = [math]::Floor(35 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç°è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 57; "G" = 41; "B" = 35}}) | Out-Null
+    $Ret.Add(@{"ç°è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(57 * 220 / 255); "G" = [math]::Floor(41 * 220 / 255); "B" = [math]::Floor(35 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç°è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(57 * 180 / 255); "G" = [math]::Floor(41 * 180 / 255); "B" = [math]::Floor(35 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"”–ŠDF‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 135; "G" = 107; "B" = 98}}) | Out-Null
-    $Ret.Add(@{"”–ŠDF‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(135 * 220 / 255); "G" = [math]::Floor(107 * 220 / 255); "B" = [math]::Floor(98 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"”–ŠDF‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(135 * 180 / 255); "G" = [math]::Floor(107 * 180 / 255); "B" = [math]::Floor(98 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"è–„ç°è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 135; "G" = 107; "B" = 98}}) | Out-Null
+    $Ret.Add(@{"è–„ç°è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(135 * 220 / 255); "G" = [math]::Floor(107 * 220 / 255); "B" = [math]::Floor(98 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"è–„ç°è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(135 * 180 / 255); "G" = [math]::Floor(107 * 180 / 255); "B" = [math]::Floor(98 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"Â—ÎF‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 87; "G" = 92; "B" = 92}}) | Out-Null
-    $Ret.Add(@{"Â—ÎF‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(87 * 220 / 255); "G" = [math]::Floor(92 * 220 / 255); "B" = [math]::Floor(92 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"Â—ÎF‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(87 * 180 / 255); "G" = [math]::Floor(92 * 180 / 255); "B" = [math]::Floor(92 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é’ç·‘è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 87; "G" = 92; "B" = 92}}) | Out-Null
+    $Ret.Add(@{"é’ç·‘è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(87 * 220 / 255); "G" = [math]::Floor(92 * 220 / 255); "B" = [math]::Floor(92 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é’ç·‘è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(87 * 180 / 255); "G" = [math]::Floor(92 * 180 / 255); "B" = [math]::Floor(92 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"‡F‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 122; "G" = 73; "B" = 88}}) | Out-Null
-    $Ret.Add(@{"‡F‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(122 * 220 / 255); "G" = [math]::Floor(73 * 220 / 255); "B" = [math]::Floor(88 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"‡F‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(122 * 180 / 255); "G" = [math]::Floor(73 * 180 / 255); "B" = [math]::Floor(88 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç´«è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 122; "G" = 73; "B" = 88}}) | Out-Null
+    $Ret.Add(@{"ç´«è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(122 * 220 / 255); "G" = [math]::Floor(73 * 220 / 255); "B" = [math]::Floor(88 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç´«è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(122 * 180 / 255); "G" = [math]::Floor(73 * 180 / 255); "B" = [math]::Floor(88 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"ÂF‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 76; "G" = 62; "B" = 92}}) | Out-Null
-    $Ret.Add(@{"ÂF‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(76 * 220 / 255); "G" = [math]::Floor(62 * 220 / 255); "B" = [math]::Floor(92 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"ÂF‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(76 * 180 / 255); "G" = [math]::Floor(62 * 180 / 255); "B" = [math]::Floor(92 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é’è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 76; "G" = 62; "B" = 92}}) | Out-Null
+    $Ret.Add(@{"é’è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(76 * 220 / 255); "G" = [math]::Floor(62 * 220 / 255); "B" = [math]::Floor(92 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é’è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(76 * 180 / 255); "G" = [math]::Floor(62 * 180 / 255); "B" = [math]::Floor(92 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"’ƒF‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 76; "G" = 50; "B" = 35}}) | Out-Null
-    $Ret.Add(@{"’ƒF‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(76 * 220 / 255); "G" = [math]::Floor(50 * 220 / 255); "B" = [math]::Floor(35 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"’ƒF‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(76 * 180 / 255); "G" = [math]::Floor(50 * 180 / 255); "B" = [math]::Floor(35 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èŒ¶è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 76; "G" = 50; "B" = 35}}) | Out-Null
+    $Ret.Add(@{"èŒ¶è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(76 * 220 / 255); "G" = [math]::Floor(50 * 220 / 255); "B" = [math]::Floor(35 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èŒ¶è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(76 * 180 / 255); "G" = [math]::Floor(50 * 180 / 255); "B" = [math]::Floor(35 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"—ÎF‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 76; "G" = 82; "B" = 42}}) | Out-Null
-    $Ret.Add(@{"—ÎF‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(76 * 220 / 255); "G" = [math]::Floor(82 * 220 / 255); "B" = [math]::Floor(42 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"—ÎF‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(76 * 180 / 255); "G" = [math]::Floor(82 * 180 / 255); "B" = [math]::Floor(42 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç·‘è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 76; "G" = 82; "B" = 42}}) | Out-Null
+    $Ret.Add(@{"ç·‘è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(76 * 220 / 255); "G" = [math]::Floor(82 * 220 / 255); "B" = [math]::Floor(42 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"ç·‘è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(76 * 180 / 255); "G" = [math]::Floor(82 * 180 / 255); "B" = [math]::Floor(42 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"ÔF‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 142; "G" = 60; "B" = 46}}) | Out-Null
-    $Ret.Add(@{"ÔF‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(142 * 220 / 255); "G" = [math]::Floor(60 * 220 / 255); "B" = [math]::Floor(46 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"ÔF‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(142 * 180 / 255); "G" = [math]::Floor(60 * 180 / 255); "B" = [math]::Floor(46 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èµ¤è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 142; "G" = 60; "B" = 46}}) | Out-Null
+    $Ret.Add(@{"èµ¤è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(142 * 220 / 255); "G" = [math]::Floor(60 * 220 / 255); "B" = [math]::Floor(46 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"èµ¤è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(142 * 180 / 255); "G" = [math]::Floor(60 * 180 / 255); "B" = [math]::Floor(46 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"•F‚Ìƒeƒ‰ƒRƒbƒ^(–¾)" = @{"R" = 37; "G" = 22; "B" = 16}}) | Out-Null
-    $Ret.Add(@{"•F‚Ìƒeƒ‰ƒRƒbƒ^" = @{"R" = [math]::Floor(37 * 220 / 255); "G" = [math]::Floor(22 * 220 / 255); "B" = [math]::Floor(16 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"•F‚Ìƒeƒ‰ƒRƒbƒ^(ˆÃ)" = @{"R" = [math]::Floor(37 * 180 / 255); "G" = [math]::Floor(22 * 180 / 255); "B" = [math]::Floor(16 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»’è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æ˜)" = @{"R" = 37; "G" = 22; "B" = 16}}) | Out-Null
+    $Ret.Add(@{"é»’è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿" = @{"R" = [math]::Floor(37 * 220 / 255); "G" = [math]::Floor(22 * 220 / 255); "B" = [math]::Floor(16 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"é»’è‰²ã®ãƒ†ãƒ©ã‚³ãƒƒã‚¿(æš—)" = @{"R" = [math]::Floor(37 * 180 / 255); "G" = [math]::Floor(22 * 180 / 255); "B" = [math]::Floor(16 * 180 / 255)}}) | Out-Null
     
-    #$Ret.Add(@{"^g‚ÌƒiƒCƒŠƒEƒ€(–¾)" = @{"R" = 189; "G" = 48; "B" = 49}}) | Out-Null
-    $Ret.Add(@{"^g‚ÌƒiƒCƒŠƒEƒ€" = @{"R" = [math]::Floor(189 * 220 / 255); "G" = [math]::Floor(48 * 220 / 255); "B" = [math]::Floor(49 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"^g‚ÌƒiƒCƒŠƒEƒ€(ˆÃ)" = @{"R" = [math]::Floor(189 * 180 / 255); "G" = [math]::Floor(48 * 180 / 255); "B" = [math]::Floor(49 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"çœŸç´…ã®ãƒŠã‚¤ãƒªã‚¦ãƒ (æ˜)" = @{"R" = 189; "G" = 48; "B" = 49}}) | Out-Null
+    $Ret.Add(@{"çœŸç´…ã®ãƒŠã‚¤ãƒªã‚¦ãƒ " = @{"R" = [math]::Floor(189 * 220 / 255); "G" = [math]::Floor(48 * 220 / 255); "B" = [math]::Floor(49 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"çœŸç´…ã®ãƒŠã‚¤ãƒªã‚¦ãƒ (æš—)" = @{"R" = [math]::Floor(189 * 180 / 255); "G" = [math]::Floor(48 * 180 / 255); "B" = [math]::Floor(49 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"^g‚Ì”ÂŞ(–¾)" = @{"R" = 148; "G" = 63; "B" = 97}}) | Out-Null
-    $Ret.Add(@{"^g‚Ì”ÂŞ" = @{"R" = [math]::Floor(148 * 220 / 255); "G" = [math]::Floor(63 * 220 / 255); "B" = [math]::Floor(97 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"^g‚Ì”ÂŞ(ˆÃ)" = @{"R" = [math]::Floor(148 * 180 / 255); "G" = [math]::Floor(63 * 180 / 255); "B" = [math]::Floor(97 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"çœŸç´…ã®æ¿æ(æ˜)" = @{"R" = 148; "G" = 63; "B" = 97}}) | Out-Null
+    $Ret.Add(@{"çœŸç´…ã®æ¿æ" = @{"R" = [math]::Floor(148 * 220 / 255); "G" = [math]::Floor(63 * 220 / 255); "B" = [math]::Floor(97 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"çœŸç´…ã®æ¿æ(æš—)" = @{"R" = [math]::Floor(148 * 180 / 255); "G" = [math]::Floor(63 * 180 / 255); "B" = [math]::Floor(97 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"^g‚Ì‹Û…(–¾)" = @{"R" = 92; "G" = 25; "B" = 29}}) | Out-Null
-    $Ret.Add(@{"^g‚Ì‹Û…" = @{"R" = [math]::Floor(92 * 220 / 255); "G" = [math]::Floor(25 * 220 / 255); "B" = [math]::Floor(29 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"^g‚Ì‹Û…(ˆÃ)" = @{"R" = [math]::Floor(92 * 180 / 255); "G" = [math]::Floor(25 * 180 / 255); "B" = [math]::Floor(29 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"çœŸç´…ã®èŒç³¸(æ˜)" = @{"R" = 92; "G" = 25; "B" = 29}}) | Out-Null
+    $Ret.Add(@{"çœŸç´…ã®èŒç³¸" = @{"R" = [math]::Floor(92 * 220 / 255); "G" = [math]::Floor(25 * 220 / 255); "B" = [math]::Floor(29 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"çœŸç´…ã®èŒç³¸(æš—)" = @{"R" = [math]::Floor(92 * 180 / 255); "G" = [math]::Floor(25 * 180 / 255); "B" = [math]::Floor(29 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"˜c‚ñ‚¾ƒiƒCƒŠƒEƒ€(–¾)" = @{"R" = 22; "G" = 126; "B" = 134}}) | Out-Null
-    $Ret.Add(@{"˜c‚ñ‚¾ƒiƒCƒŠƒEƒ€" = @{"R" = [math]::Floor(22 * 220 / 255); "G" = [math]::Floor(126 * 220 / 255); "B" = [math]::Floor(134 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"˜c‚ñ‚¾ƒiƒCƒŠƒEƒ€(ˆÃ)" = @{"R" = [math]::Floor(22 * 180 / 255); "G" = [math]::Floor(126 * 180 / 255); "B" = [math]::Floor(134 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ­ªã‚“ã ãƒŠã‚¤ãƒªã‚¦ãƒ (æ˜)" = @{"R" = 22; "G" = 126; "B" = 134}}) | Out-Null
+    $Ret.Add(@{"æ­ªã‚“ã ãƒŠã‚¤ãƒªã‚¦ãƒ " = @{"R" = [math]::Floor(22 * 220 / 255); "G" = [math]::Floor(126 * 220 / 255); "B" = [math]::Floor(134 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ­ªã‚“ã ãƒŠã‚¤ãƒªã‚¦ãƒ (æš—)" = @{"R" = [math]::Floor(22 * 180 / 255); "G" = [math]::Floor(126 * 180 / 255); "B" = [math]::Floor(134 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"˜c‚ñ‚¾”ÂŞ(–¾)" = @{"R" = 58; "G" = 142; "B" = 140}}) | Out-Null
-    $Ret.Add(@{"˜c‚ñ‚¾”ÂŞ" = @{"R" = [math]::Floor(58 * 220 / 255); "G" = [math]::Floor(142 * 220 / 255); "B" = [math]::Floor(140 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"˜c‚ñ‚¾”ÂŞ(ˆÃ)" = @{"R" = [math]::Floor(58 * 180 / 255); "G" = [math]::Floor(142 * 180 / 255); "B" = [math]::Floor(140 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ­ªã‚“ã æ¿æ(æ˜)" = @{"R" = 58; "G" = 142; "B" = 140}}) | Out-Null
+    $Ret.Add(@{"æ­ªã‚“ã æ¿æ" = @{"R" = [math]::Floor(58 * 220 / 255); "G" = [math]::Floor(142 * 220 / 255); "B" = [math]::Floor(140 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ­ªã‚“ã æ¿æ(æš—)" = @{"R" = [math]::Floor(58 * 180 / 255); "G" = [math]::Floor(142 * 180 / 255); "B" = [math]::Floor(140 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"˜c‚ñ‚¾‹Û…(–¾)" = @{"R" = 86; "G" = 44; "B" = 62}}) | Out-Null
-    $Ret.Add(@{"˜c‚ñ‚¾‹Û…" = @{"R" = [math]::Floor(86 * 220 / 255); "G" = [math]::Floor(44 * 220 / 255); "B" = [math]::Floor(62 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"˜c‚ñ‚¾‹Û…(ˆÃ)" = @{"R" = [math]::Floor(86 * 180 / 255); "G" = [math]::Floor(44 * 180 / 255); "B" = [math]::Floor(62 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ­ªã‚“ã èŒç³¸(æ˜)" = @{"R" = 86; "G" = 44; "B" = 62}}) | Out-Null
+    $Ret.Add(@{"æ­ªã‚“ã èŒç³¸" = @{"R" = [math]::Floor(86 * 220 / 255); "G" = [math]::Floor(44 * 220 / 255); "B" = [math]::Floor(62 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ­ªã‚“ã èŒç³¸(æš—)" = @{"R" = [math]::Floor(86 * 180 / 255); "G" = [math]::Floor(44 * 180 / 255); "B" = [math]::Floor(62 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"˜c‚ñ‚¾ƒlƒU[ƒEƒH[ƒgƒuƒƒbƒN(–¾)" = @{"R" = 20; "G" = 180; "B" = 133}}) | Out-Null
-    $Ret.Add(@{"˜c‚ñ‚¾ƒlƒU[ƒEƒH[ƒgƒuƒƒbƒN" = @{"R" = [math]::Floor(20 * 220 / 255); "G" = [math]::Floor(180 * 220 / 255); "B" = [math]::Floor(133 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"˜c‚ñ‚¾ƒlƒU[ƒEƒH[ƒgƒuƒƒbƒN(ˆÃ)" = @{"R" = [math]::Floor(20 * 180 / 255); "G" = [math]::Floor(180 * 180 / 255); "B" = [math]::Floor(133 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ­ªã‚“ã ãƒã‚¶ãƒ¼ã‚¦ã‚©ãƒ¼ãƒˆãƒ–ãƒ­ãƒƒã‚¯(æ˜)" = @{"R" = 20; "G" = 180; "B" = 133}}) | Out-Null
+    $Ret.Add(@{"æ­ªã‚“ã ãƒã‚¶ãƒ¼ã‚¦ã‚©ãƒ¼ãƒˆãƒ–ãƒ­ãƒƒã‚¯" = @{"R" = [math]::Floor(20 * 220 / 255); "G" = [math]::Floor(180 * 220 / 255); "B" = [math]::Floor(133 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ­ªã‚“ã ãƒã‚¶ãƒ¼ã‚¦ã‚©ãƒ¼ãƒˆãƒ–ãƒ­ãƒƒã‚¯(æš—)" = @{"R" = [math]::Floor(20 * 180 / 255); "G" = [math]::Floor(180 * 180 / 255); "B" = [math]::Floor(133 * 180 / 255)}}) | Out-Null
 
-    #$Ret.Add(@{"[‘wŠâ(–¾)" = @{"R" = 100; "G" = 100; "B" = 100}}) | Out-Null
-    $Ret.Add(@{"[‘wŠâ" = @{"R" = [math]::Floor(100 * 220 / 255); "G" = [math]::Floor(100 * 220 / 255); "B" = [math]::Floor(100 * 220 / 255)}}) | Out-Null
-    #$Ret.Add(@{"[‘wŠâ(ˆÃ)" = @{"R" = [math]::Floor(100 * 180 / 255); "G" = [math]::Floor(100 * 180 / 255); "B" = [math]::Floor(100 * 180 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ·±å±¤å²©(æ˜)" = @{"R" = 100; "G" = 100; "B" = 100}}) | Out-Null
+    $Ret.Add(@{"æ·±å±¤å²©" = @{"R" = [math]::Floor(100 * 220 / 255); "G" = [math]::Floor(100 * 220 / 255); "B" = [math]::Floor(100 * 220 / 255)}}) | Out-Null
+    #$Ret.Add(@{"æ·±å±¤å²©(æš—)" = @{"R" = [math]::Floor(100 * 180 / 255); "G" = [math]::Floor(100 * 180 / 255); "B" = [math]::Floor(100 * 180 / 255)}}) | Out-Null
     
     return $Ret
 }
@@ -231,14 +231,14 @@ $ResizedImagePath = "${Directory}\${BaseName}_${TargetWidth}.png"
 $McImagePath = "${Directory}\${BaseName}_MC.png"
 $OutCsvPath = "${Directory}\${BaseName}_MC.csv"
 
-#Œ³‰æ‘œ
+#å…ƒç”»åƒ
 $SrcBitmap = [system.Drawing.Bitmap]::fromfile($ImagePath)
 
 
 #$TargetWidth = [int](Read-Host -Prompt "The number of blocks in horizontal direction")
 $TargetWidth = 128
 
-#‰ÁHŒã‰æ‘œ
+#åŠ å·¥å¾Œç”»åƒ
 $DstBitmap = [system.drawing.Bitmap]::new($TargetWidth, $TargetWidth)
 
 $g = [System.Drawing.Graphics]::FromImage($DstBitmap)
@@ -251,7 +251,7 @@ if(Test-Path -Path $ResizedImagePath){
 }
 $DstBitmap.Save($ResizedImagePath, [System.Drawing.Imaging.ImageFormat]::Png)
 
-#ƒ}ƒCƒNƒ‰‚ÌƒuƒƒbƒN‚É’u‚«Š·‚¦
+#ãƒã‚¤ã‚¯ãƒ©ã®ãƒ–ãƒ­ãƒƒã‚¯ã«ç½®ãæ›ãˆ
 $MinecraftBitmap = [system.drawing.Bitmap]::new($TargetWidth, $TargetWidth)
 if(Test-Path -Path $OutCsvPath){
     Remove-Item -Path $OutCsvPath
